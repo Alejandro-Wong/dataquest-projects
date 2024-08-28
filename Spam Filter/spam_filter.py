@@ -142,3 +142,12 @@ for row in test.iterrows():
 print('Correct: ', correct)
 print('Incorrect: ', total - correct)
 print('Accuracy: ', correct/total)
+
+
+"""
+Should output:
+
+Correct:  1100
+Incorrect:  14
+Accuracy:  0.9874326750448833
+"""
